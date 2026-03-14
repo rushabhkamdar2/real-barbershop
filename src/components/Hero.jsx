@@ -25,7 +25,7 @@ export default function Hero() {
           </div>
 
           {/* Title */}
-          <h1 className="opacity-0 animate-fade-up-delay-2 font-display text-[clamp(3.5rem,10vw,7.5rem)] leading-[1.2] md:leading-[0.92] tracking-tight mb-6 text-shadow-gold">
+          <h1 className="hero-title opacity-0 animate-fade-up-delay-2 font-display text-[clamp(3.5rem,10vw,7.5rem)] leading-[0.92] tracking-tight mb-6 text-shadow-gold">
             {t('heroTitle1')} <span className="text-gold">{t('heroTitleAccent')}</span> {t('heroTitle2')}
             <br />
             {t('heroTitle3')}

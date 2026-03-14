@@ -84,3 +84,9 @@
     text-shadow: 0 0 40px rgba(212, 175, 55, 0.15);
   }
 }
+
+@media (max-width: 767px) {
+  .hero-title {
+    line-height: 1.2 !important;
+  }
+}
