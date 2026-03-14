@@ -22,9 +22,12 @@ export default function Navbar() {
   ]
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-[1000] py-4 transition-all duration-400 bg-dark/[0.95] backdrop-blur-xl border-b border-gold/15 ${
-      scrolled ? '' : 'border-transparent'
-    }`}>
+    <nav
+      className={`fixed top-0 left-0 right-0 z-[1000] transition-all duration-400 bg-dark/[0.95] backdrop-blur-xl border-b border-gold/15 ${
+        scrolled ? '' : 'border-transparent'
+      }`}
+      style={{ paddingTop: 'calc(env(safe-area-inset-top) + 1rem)', paddingBottom: '1rem' }}
+    >
       <div className="max-w-[1200px] mx-auto px-6 flex items-center justify-between">
         {/* Left: Logo + Lang */}
         <div className="flex items-center gap-5">
