@@ -23,7 +23,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-[1000] transition-all duration-400 bg-dark/[0.95] backdrop-blur-xl border-b border-gold/15 ${
+      className={`fixed top-0 left-0 right-0 z-[1000] transition-all duration-400 bg-dark border-b border-gold/15 ${
         scrolled ? '' : 'border-transparent'
       }`}
       style={{ paddingTop: 'calc(env(safe-area-inset-top) + 1rem)', paddingBottom: '1rem' }}
