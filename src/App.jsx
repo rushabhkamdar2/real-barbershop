@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { LangProvider } from './components/LangContext'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
@@ -22,6 +23,7 @@ export default function App() {
         <MapSection />
         <Info />
         <Footer />
+        <Analytics />
       </div>
     </LangProvider>
   )
