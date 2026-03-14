@@ -12,7 +12,7 @@ import Footer from './components/Footer'
 export default function App() {
   return (
     <LangProvider>
-      <div className="grain-overlay bg-dark text-cream min-h-screen overflow-x-hidden">
+      <div className="grain-overlay bg-dark text-cream min-h-screen">
         <Navbar />
         <Hero />
         <Divider />
