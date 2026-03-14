@@ -10,10 +10,6 @@ export default function Hero() {
         <div className="absolute inset-0" style={{
           background: 'radial-gradient(ellipse at 20% 50%, rgba(200,162,69,0.08) 0%, transparent 60%), radial-gradient(ellipse at 80% 20%, rgba(200,162,69,0.05) 0%, transparent 50%)'
         }} />
-        {/* Barber pole stripes */}
-        <div className="barber-stripe right-[15%]" style={{ background: 'linear-gradient(180deg, transparent, rgba(200,162,69,0.2), transparent)' }} />
-        <div className="barber-stripe right-[15.4%]" style={{ background: 'linear-gradient(180deg, transparent, rgba(196,59,59,0.15), transparent)' }} />
-        <div className="barber-stripe right-[15.8%]" style={{ background: 'linear-gradient(180deg, transparent, rgba(70,130,180,0.12), transparent)' }} />
       </div>
 
       <div className="max-w-[1200px] mx-auto px-6 relative z-10">
